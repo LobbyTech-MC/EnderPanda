@@ -119,7 +119,7 @@ public class EnderReplacer extends SlimefunItem implements EnergyNetComponent {
                     e.remove();
                     b.getWorld().spawnEntity(e.getLocation(), EntityType.PANDA);
                     b.getWorld().spawnParticle(Particle.DRAGON_BREATH, e.getLocation(), 200);
-                    b.getWorld().spawnParticle(Particle.ITEM_CRACK, b.getLocation().clone().add(0.5, 2, 0.5), 100,
+                    b.getWorld().spawnParticle(Particle.ITEM, b.getLocation().clone().add(0.5, 2, 0.5), 100,
                             new ItemStack(Material.BAMBOO));
                     removeCharge(b.getLocation(), ENERGY_CONSUMPTION);
                     if (inv.getItemInSlot(14) != null) {

@@ -17,7 +17,7 @@ public class PandaChestplate extends SlimefunArmorPiece {
                 }, new PotionEffect[0]
         );
         final ItemStack is = Items.PANDA_CHESTPLATE;
-        is.addEnchantment(Enchantment.DURABILITY, 1);
-        is.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 5);
+        is.addEnchantment(Enchantment.UNBREAKING, 1);
+        is.addUnsafeEnchantment(Enchantment.FIRE_PROTECTION, 5);
     }
 }

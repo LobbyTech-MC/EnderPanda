@@ -17,8 +17,8 @@ public class PandaBoots extends SlimefunArmorPiece {
                 }, new PotionEffect[0]
         );
         final ItemStack is = Items.PANDA_BOOTS;
-        is.addEnchantment(Enchantment.DURABILITY, 1);
-        is.addUnsafeEnchantment(Enchantment.PROTECTION_FIRE, 5);
-        is.addUnsafeEnchantment(Enchantment.PROTECTION_FALL, 8);
+        is.addEnchantment(Enchantment.UNBREAKING, 1);
+        is.addUnsafeEnchantment(Enchantment.FIRE_PROTECTION, 5);
+        is.addUnsafeEnchantment(Enchantment.FEATHER_FALLING, 8);
     }
 }

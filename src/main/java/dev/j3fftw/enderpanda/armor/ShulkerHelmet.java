@@ -20,9 +20,9 @@ public class ShulkerHelmet extends SlimefunArmorPiece {
                 }, new PotionEffect[0]
         );
         final ItemStack is = Items.SHULKER_HELMET;
-        is.addEnchantment(Enchantment.OXYGEN, 1);
-        is.addEnchantment(Enchantment.DURABILITY, 3);
-        is.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
+        is.addEnchantment(Enchantment.RESPIRATION, 1);
+        is.addEnchantment(Enchantment.UNBREAKING, 3);
+        is.addEnchantment(Enchantment.PROTECTION, 3);
     }
 
 }
